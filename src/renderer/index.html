@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:" />
+  <title>IT Updates</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="main">
+  <aside id="sidebar">
+    <div class="brand">IT Updates</div>
+    <nav id="channels"></nav>
+    <div class="sidebar-footer">
+      <button id="btn-refresh" title="Fetch all sources now (⌘R)">Refresh</button>
+      <button id="btn-config" title="Open config.json (sources, keywords, rules)">Sources &amp; rules</button>
+      <button id="btn-opml" title="Export feed list for other RSS readers">Export OPML</button>
+      <div id="status" class="muted"></div>
+    </div>
+  </aside>
+
+  <section id="list-pane">
+    <header class="toolbar">
+      <input id="search" type="search" placeholder="Search title, summary, CVE…" />
+      <select id="min-urgency" title="Minimum urgency">
+        <option value="info">All urgencies</option>
+        <option value="normal">Normal +</option>
+        <option value="high">High +</option>
+        <option value="critical">Critical only</option>
+      </select>
+      <label class="toggle"><input type="checkbox" id="unread-only" /> Unread</label>
+      <button id="btn-mark-all" title="Mark all visible items read">Mark all read</button>
+    </header>
+    <div id="list-title" class="list-title"></div>
+    <ul id="list"></ul>
+  </section>
+
+  <section id="detail-pane">
+    <div id="detail" class="empty">Select an item</div>
+  </section>
+
+  <script src="common.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

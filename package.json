@@ -1,0 +1,48 @@
+{
+  "name": "it-updates",
+  "productName": "IT Updates",
+  "version": "1.0.0",
+  "description": "Desktop alerting for PHP, nginx, JavaScript, Node.js, TypeScript, web hosting and web platform news, CVEs and breaking changes.",
+  "main": "src/main/main.js",
+  "author": "Dennis <dennis@code-alliance.de>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dry-run": "node scripts/dry-run.js",
+    "opml": "node scripts/export-opml.js > feeds.opml",
+    "dist": "electron-builder",
+    "dist:mac": "electron-builder --mac",
+    "dist:win": "electron-builder --win",
+    "dist:linux": "electron-builder --linux"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "electron": "^45.4.1",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "de.code-alliance.it-updates",
+    "productName": "IT Updates",
+    "files": [
+      "src/**/*",
+      "config/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage",
+      "category": "Development"
+    }
+  }
+}

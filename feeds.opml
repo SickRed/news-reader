@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>IT Updates – curated feeds</title>
+    <dateCreated>Thu, 19 Nov 2026 22:43:50 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="Security &amp; CVEs" title="Security &amp; CVEs">
+      <outline type="rss" text="Node.js Security Releases" title="Node.js Security Releases" xmlUrl="https://nodejs.org/en/feed/vulnerability.xml"/>
+      <outline type="rss" text="PHP Security Advisories DB (FriendsOfPHP)" title="PHP Security Advisories DB (FriendsOfPHP)" xmlUrl="https://github.com/FriendsOfPHP/security-advisories/commits/master.atom"/>
+      <outline type="rss" text="BSI CERT-Bund WID (DE)" title="BSI CERT-Bund WID (DE)" xmlUrl="https://wid.cert-bund.de/content/public/securityAdvisory/rss"/>
+      <outline type="rss" text="oss-security mailing list" title="oss-security mailing list" xmlUrl="https://seclists.org/rss/oss-sec.rss"/>
+      <outline type="rss" text="CISA Cybersecurity Advisories" title="CISA Cybersecurity Advisories" xmlUrl="https://www.cisa.gov/cybersecurity-advisories/all.xml"/>
+      <outline type="rss" text="Ubuntu Security Notices" title="Ubuntu Security Notices" xmlUrl="https://ubuntu.com/security/notices/rss.xml"/>
+      <outline type="rss" text="Debian Security Advisories" title="Debian Security Advisories" xmlUrl="https://www.debian.org/security/dsa"/>
+      <outline type="rss" text="Socket.dev Blog (npm supply chain)" title="Socket.dev Blog (npm supply chain)" xmlUrl="https://socket.dev/api/blog/feed.atom"/>
+      <outline type="rss" text="Snyk Blog" title="Snyk Blog" xmlUrl="https://snyk.io/blog/feed/"/>
+      <outline type="rss" text="Wordfence Blog (WordPress)" title="Wordfence Blog (WordPress)" xmlUrl="https://www.wordfence.com/blog/feed/"/>
+      <outline type="rss" text="Patchstack Blog (WordPress/PHP)" title="Patchstack Blog (WordPress/PHP)" xmlUrl="https://patchstack.com/feed/"/>
+      <outline type="rss" text="GitHub Blog – Security" title="GitHub Blog – Security" xmlUrl="https://github.blog/security/feed/"/>
+      <outline type="rss" text="Mozilla Security Blog" title="Mozilla Security Blog" xmlUrl="https://blog.mozilla.org/security/feed/"/>
+      <outline type="rss" text="cvefeed.io – latest CVEs" title="cvefeed.io – latest CVEs" xmlUrl="https://cvefeed.io/rssfeed/latest.xml"/>
+    </outline>
+    <outline text="Security (general)" title="Security (general)">
+      <outline type="rss" text="The Hacker News" title="The Hacker News" xmlUrl="https://feeds.feedburner.com/TheHackersNews"/>
+      <outline type="rss" text="BleepingComputer" title="BleepingComputer" xmlUrl="https://www.bleepingcomputer.com/feed/"/>
+      <outline type="rss" text="heise Security (DE)" title="heise Security (DE)" xmlUrl="https://www.heise.de/security/feed.xml"/>
+      <outline type="rss" text="The Register – Security" title="The Register – Security" xmlUrl="https://www.theregister.com/security/headlines.atom"/>
+    </outline>
+    <outline text="PHP" title="PHP">
+      <outline type="rss" text="php.net News &amp; Releases" title="php.net News &amp; Releases" xmlUrl="https://www.php.net/feed.atom"/>
+      <outline type="rss" text="PHP.Watch News" title="PHP.Watch News" xmlUrl="https://php.watch/feed/news.xml"/>
+      <outline type="rss" text="Packagist / Composer Blog" title="Packagist / Composer Blog" xmlUrl="https://blog.packagist.com/rss/"/>
+      <outline type="rss" text="Laravel News" title="Laravel News" xmlUrl="https://feed.laravel-news.com/"/>
+      <outline type="rss" text="Symfony Blog" title="Symfony Blog" xmlUrl="https://feeds.feedburner.com/symfony/blog"/>
+      <outline type="rss" text="stitcher.io (Brent Roose)" title="stitcher.io (Brent Roose)" xmlUrl="https://stitcher.io/rss"/>
+      <outline type="rss" text="WordPress News" title="WordPress News" xmlUrl="https://wordpress.org/news/feed/"/>
+      <outline type="rss" text="PhpStorm Blog" title="PhpStorm Blog" xmlUrl="https://blog.jetbrains.com/phpstorm/feed/"/>
+    </outline>
+    <outline text="nginx" title="nginx">
+      <outline type="rss" text="nginx.org News" title="nginx.org News" xmlUrl="https://nginx.org/index.rss"/>
+      <outline type="rss" text="nginx Community Blog" title="nginx Community Blog" xmlUrl="https://blog.nginx.org/feed"/>
+    </outline>
+    <outline text="Node.js" title="Node.js">
+      <outline type="rss" text="Node.js Blog" title="Node.js Blog" xmlUrl="https://nodejs.org/en/feed/blog.xml"/>
+      <outline type="rss" text="Node.js Releases" title="Node.js Releases" xmlUrl="https://nodejs.org/en/feed/releases.xml"/>
+      <outline type="rss" text="Deno Blog" title="Deno Blog" xmlUrl="https://deno.com/feed"/>
+      <outline type="rss" text="Bun Blog" title="Bun Blog" xmlUrl="https://bun.sh/rss.xml"/>
+      <outline type="rss" text="Node Weekly" title="Node Weekly" xmlUrl="https://cprss.s3.amazonaws.com/nodeweekly.com.xml"/>
+    </outline>
+    <outline text="TypeScript" title="TypeScript">
+      <outline type="rss" text="TypeScript Blog" title="TypeScript Blog" xmlUrl="https://devblogs.microsoft.com/typescript/feed/"/>
+    </outline>
+    <outline text="JavaScript" title="JavaScript">
+      <outline type="rss" text="JavaScript Weekly" title="JavaScript Weekly" xmlUrl="https://cprss.s3.amazonaws.com/javascriptweekly.com.xml"/>
+      <outline type="rss" text="Next.js Blog" title="Next.js Blog" xmlUrl="https://nextjs.org/feed.xml"/>
+    </outline>
+    <outline text="General" title="General">
+      <outline type="rss" text="GitHub Changelog (npm/Actions)" title="GitHub Changelog (npm/Actions)" xmlUrl="https://github.blog/changelog/feed/"/>
+      <outline type="rss" text="heise Developer (DE)" title="heise Developer (DE)" xmlUrl="https://www.heise.de/developer/feed.xml"/>
+      <outline type="rss" text="Hacker News (300+ points)" title="Hacker News (300+ points)" xmlUrl="https://hnrss.org/newest?points=300"/>
+    </outline>
+    <outline text="Web Platform &amp; Browsers" title="Web Platform &amp; Browsers">
+      <outline type="rss" text="Chrome Releases" title="Chrome Releases" xmlUrl="https://chromereleases.googleblog.com/feeds/posts/default"/>
+      <outline type="rss" text="Chrome for Developers" title="Chrome for Developers" xmlUrl="https://developer.chrome.com/static/blog/feed.xml"/>
+      <outline type="rss" text="web.dev" title="web.dev" xmlUrl="https://web.dev/static/blog/feed.xml"/>
+      <outline type="rss" text="V8 Blog" title="V8 Blog" xmlUrl="https://v8.dev/blog.atom"/>
+      <outline type="rss" text="Mozilla Hacks" title="Mozilla Hacks" xmlUrl="https://hacks.mozilla.org/feed/"/>
+      <outline type="rss" text="WebKit Blog" title="WebKit Blog" xmlUrl="https://webkit.org/blog/feed/"/>
+      <outline type="rss" text="W3C News" title="W3C News" xmlUrl="https://www.w3.org/blog/news/feed/"/>
+      <outline type="rss" text="Frontend Focus" title="Frontend Focus" xmlUrl="https://cprss.s3.amazonaws.com/frontendfoc.us.xml"/>
+      <outline type="rss" text="Smashing Magazine" title="Smashing Magazine" xmlUrl="https://www.smashingmagazine.com/feed/"/>
+      <outline type="rss" text="Lobsters – web" title="Lobsters – web" xmlUrl="https://lobste.rs/t/web.rss"/>
+    </outline>
+    <outline text="Web Hosting &amp; Infra" title="Web Hosting &amp; Infra">
+      <outline type="rss" text="OpenSSL Releases" title="OpenSSL Releases" xmlUrl="https://github.com/openssl/openssl/releases.atom"/>
+      <outline type="rss" text="Let&apos;s Encrypt Blog" title="Let&apos;s Encrypt Blog" xmlUrl="https://letsencrypt.org/feed.xml"/>
+      <outline type="rss" text="Cloudflare Blog" title="Cloudflare Blog" xmlUrl="https://blog.cloudflare.com/rss/"/>
+      <outline type="rss" text="Cloudflare Status" title="Cloudflare Status" xmlUrl="https://www.cloudflarestatus.com/history.atom"/>
+      <outline type="rss" text="GitHub Status" title="GitHub Status" xmlUrl="https://www.githubstatus.com/history.atom"/>
+      <outline type="rss" text="Hetzner Status" title="Hetzner Status" xmlUrl="https://status.hetzner.com/en.atom"/>
+    </outline>
+  </body>
+</opml>

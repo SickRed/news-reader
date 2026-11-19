@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'" />
+  <title>IT Updates – Action required</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="alert">
+  <header class="alert-head">
+    <div class="alert-icon">⚠</div>
+    <div>
+      <div class="alert-title" id="alert-title">Urgent updates</div>
+      <div class="muted">This window stays on top until every item is acknowledged.</div>
+    </div>
+  </header>
+  <ul id="alert-list"></ul>
+  <footer class="alert-foot">
+    <button id="btn-show-app">Open app</button>
+    <button id="btn-ack-all" class="danger">Acknowledge all</button>
+  </footer>
+  <script src="common.js"></script>
+  <script src="alert.js"></script>
+</body>
+</html>
